@@ -1,0 +1,130 @@
+body { line-height: 1.8;
+    background-color: black;
+   }
+   
+/* Start of navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(198, 0, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+    width: 100px !important;
+    height: auto !important;
+}
+
+.navbar-toggler {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+    
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+.dropdown-toggle {
+
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-item {
+
+}
+
+a:hover {color: black !important;} .active-tab { color: black !important; border-bottom: 1px solid black;} @media (max-width: 991.98px) { .active-tab { border-bottom: none;}} /* End of navbar */
+
+/* Start of img*/
+
+img {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);   
+}
+
+/* End of img */ @media (min-width: 768px) and (max-width: 991.98px) {#figurine { max-width: 45%; height: auto; margin: -5% auto 5% auto; max-height: 420px;}}
+
+   h1 {
+       color: gold;
+       text-align: center;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+
+   }
+
+      @media (max-width: 424.98px) { #figurine { max-width: 100%; height: auto; margin: -5% auto 5% auto; max-height: 300px;}} @media (min-width: 425px) and (max-width: 767.98px) { #figurine { max-width: 100%; height: auto; margin: -5% auto 5% auto; max-height: 350px;}}  #figurine { 
+       max-width: 54%;
+       height: auto;
+       margin: -5% auto 5% auto;
+   }
+
+   .btn {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+        color: black;
+        font-weight: bold;
+        font-size: 70%;
+   } 
+
+   .btn:hover {
+        color: white;
+        text-decoration: none;
+   }
+
+   .card {
+       background-color: rgb(198, 0, 2);
+       opacity: 0.7;
+   }
+
+   .card-body { line-height: 1.5;
+       background-color: white;
+       font-weight: 600;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+   }
+
+   
+   

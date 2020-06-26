@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <title>Home</title>
+</head>
+
+<body>
+    <!-- Navbar Component -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marvel_Cinematic_Universe_Logo.png" alt="MCU logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item text-right">
+            <a class="nav-link" href="./characters/index.html">
+                Bios
+            </a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="./summary/movies%20-%20main/movies-main-bootstrap.html">
+                Movies
+            </a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="./Blog/blog-bootstrap.html">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="./Quiz%20(Final)/Quiz.html">Quiz <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="./Snap(Final)/snap.html">Destiny <span class="sr-only">(current)</span></a>
+        </li>
+
+        </ul>
+      </div>
+    </nav>
+  
+    <!-- Jumbotron -->
+    <!--<div class="jumbotron jumbotron-fluid">
+        <div class="embed-responsive embed-responsive-16by9 align-center">
+            <video autoplay muted loop playsinline class="mt-5 embed-responsive-item" allow="autoplay">
+                <source src="./resources/css/logo.mp4" id="vid" type="video/mp4">
+            </video>
+        </div>
+    </div> -->
+    
+    <iframe src="./marvel-intro.mp3" allow="autoplay" id="audio" style="display:none" loop type="audio/mpeg"></iframe>
+
+    <div class="row d-flex justify-content-center web">
+      <div class="col col-lg-10 text-center">
+        <img class="banner" src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/e/ec/Marvel-infinitysaga-logo-700x310.jpg/revision/latest?cb=20190920025432" id="banner-web">
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-center mobile">
+      <div class="col">
+        <img class="banner" src="./resources/banner-mobile.jpg" id="banner-mobile">
+      </div>
+    </div>
+    
+  
+      <!-- Container -->
+      <div class="container">
+          <!-- Quote Section -->
+          <div class="row quote mx-auto">
+            <div class="col my-3">
+              <h3 class="font-italic font-weight-light text-center">There was an idea...</h3>
+              <p class="font-italic font-weight-bold text-center">to dedicate this fan page to the 23 Chapters of Marvel's Infinity Saga. Journey into Earth-19999 - Marvel's Cinematic Universe!</p>
+            </div>
+          </div>
+          <hr>
+  
+    <!-- Cards -->
+
+    <div class="card-group text-center row">
+        <div class="col col-sm-6 col-md-4 col-lg col-xl">
+          <h5 class="card-title">Bios</h5>
+          <a href="./characters/index.html">
+            <img src="./resources/Characters.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Learn more about all of the characters who live within the Marvel Cinematic Universe</p>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg col-xl">
+          <h5 class="card-title">Movies</h5>
+          <a href="./summary/movies%20-%20main/movies-main-bootstrap.html">
+            <img src="./resources/Movies.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Take a guided tour through the MCU with summaries of each film</p>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg col-xl">
+          <h5 class="card-title">Blog</h5>
+          <a href="./Blog/blog-bootstrap.html">
+            <img src="./resources/blog.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Check out our thoughts on the masterpiece that is Marvel's Cinematic Universe</p>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg col-xl">
+          <h5 class="card-title">Quiz</h5>
+          <a href="./Quiz%20(Final)/Quiz.html">
+            <img src="./resources/Quiz.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Test your knowledge of the events taking place on Earth-19999</p>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg col-xl">
+          <h5 class="card-title">Destiny</h5>
+          <a href="./Snap(Final)/snap.html">
+            <img src="./resources/Destiny.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <p class="card-text">Destiny has arrived! Click here to find out if you would have survived The Decimation</p>
+          </div>
+        </div>
+      </div>
+
+            
+    <!-- Footer -->
+    <footer class="text-center my-4">&copy; 2019 Alex Washington</footer>
+  
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </body>
+  </html>

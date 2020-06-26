@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="Quiz.css" rel="stylesheet">
+  <script defer src="Quiz.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>MCU Quiz</title>
+</head>
+
+<body>
+  <div id="question-reset"></div>
+    <!-- Navbar Component -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="../index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marvel_Cinematic_Universe_Logo.png" alt="MCU logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item text-right">
+            <a class="nav-link" href="../characters/index.html">
+                Bios
+            </a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="../summary/movies%20-%20main/movies-main-bootstrap.html">
+                Movies
+            </a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="../Blog/blog-bootstrap.html">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link active-tab" href="../Quiz%20(Final)/Quiz.html">Quiz <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="../Snap(Final)/snap.html">Destiny <span class="sr-only">(current)</span></a>
+        </li>
+
+        </ul>
+      </div>
+    </nav>
+  <br>
+  <br>
+  <br>
+  <div class="container \ text-center ml-auto">
+    
+    <div class="row mt-5">
+      <h1 id="title" class="col-lg hide">MCU Trivia</h1>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-12">
+        <img id="banner" src="http://cdn.epicstream.com/assets/uploads/quizcover/1506351131MT_Cover.png" class="my-5">
+      </div>
+    </div>
+    <div id="question-container" class="row hide">
+      <div id="question" class="col">Question</div>
+    </div>
+    <div id="image-container" class="row text-center">
+      <div class="col col-sm col-md col-lg col-xl">
+        <img id="image" class="text-center image hide">
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div id="answer-buttons" class="row answer-buttons hide mx-2 mt-1 col col-sm col-md col-lg-8 col-xl-6">
+        
+      </div>
+  </div>
+  <div class="row">   
+    <p id="text" class="col text text-center"></p>    
+  </div>
+    <div class="results hide row d-flex justify-content-center">
+      <div class="col-8 col-xl-12">  
+        <img id="success" src="./images/congratulations.gif" class="hide">			
+      </div>
+    </div>
+
+    <div class="results hide row d-flex justify-content-center">
+      <div class="col-11 col-sm-10 col-xl-12">  
+        <img id="failure" src="./images/try again.gif" class="hide">			
+      </div>
+    </div>    
+    <div id="results" class="results hide row d-flex justify-content-center">
+        <p id="message" class="col text-center hide">Congratulations!</p>			
+    </div>
+    <div class="controls row d-flex justify-content-center">
+      <div class="row justify-content-center">      
+        <div class="col">
+          <button type="submit" id="start-btn" class="start-btn btn mb-5">Start</button>
+        </div>    
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">
+          <button type="submit" id="restart-btn" class="restart-btn btn hide mb-5" onclick="startGame()">Restart Quiz</button>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col">  
+          <a href="#question-reset"><button type="submit" id="next-btn" class="next-btn btn hide  my-2">Next</button></a>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col">          
+          <button type="submit" id="results-btn" class="results-btn btn hide my-2 mb-5">Get Results!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-5 row">
+    <p id="footer" class="col-lg">&copy; 2019 Alex Washington</footer></p>
+</body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS --> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="./resources/css/the-avengers.css" type="text/css">
+  <title>The Avengers</title>
+</head>
+
+<body>
+    <!-- Navbar Component -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="../../index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marvel_Cinematic_Universe_Logo.png" alt="MCU logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item text-right">
+            <a class="nav-link" href="../../characters/index.html">
+                Bios
+            </a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link active-tab" href="../../summary/movies%20-%20main/movies-main-bootstrap.html">
+                Movies
+            </a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="../../Blog/blog-bootstrap.html">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="../../Quiz%20(Final)/Quiz.html">Quiz <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="../../Snap(Final)/snap.html">Destiny <span class="sr-only">(current)</span></a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+
+
+  <!-- Container -->
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col py-5 my-5 text-center"><img id="title" src="./movie-titles/the-avengers.PNG"></div>
+    </div>
+  <!-- Jumbotron -->
+  <div class="row text-center d-flex justify-content-center">
+    <div class="col col-md-9">
+      <img src="./the-avengers/banner-min.jpg" id="banner" style="min-width: ;">
+    </div>
+  </div>
+    <!-- Quote Section -->
+    <div class="row">
+      <div class="col my-5">
+        <h6 style="font-size: 120%"; class="font-italic font-weight-light text-center">"There was an idea - Stark knows this - called the Avengers Initiative. The idea was to bring together a group of remarkable people to see if they could become something more. To see if they could work together when we needed them to, to fight the battles that we never could."</h6>
+        <p class="font-italic font-weight-bold text-right">-Nick Fury, <span class="font-italic font-weight-normal"> 2012</span></p>
+      </div>
+    </div>
+    <hr>
+
+<!--Helper Menu-->
+<div id="help-nav" class="card-group text-center">
+  <div class="row d-flex justify-content-center py-5 my-5">
+    <div class="col-7 col-sm-3">
+      <a href="#trailer">
+        <figure>
+          <figcaption class="card-title">Trailer</figcaption>
+          <img class="card-img-top" style="border-radius: 100%; max-height: 300px;" src="./icons/trailer.jpg" title="Trailer" alt="Card image cap">          
+      </figure>
+      </a>  
+  </div>
+   <div class="col-7 col-sm-3">
+      <a href="#characters">
+        <figure>
+          <figcaption class="card-title" >Characters</figcaption>
+          <img class="card-img-top" title="Characters" style="max-height: 300px;" src="./icons/avengers-icon-16.png" alt="Card image cap">
+      </figure>
+      </a>  
+  </div>
+  <div class="col-7 col-sm-3">
+      <a href="#synopsis">
+        <figure>
+          <figcaption class="card-title">Synopsis</figcaption>
+          <img class="card-img-top" style="border-radius: 100%; max-height: 300px;" title="Synopsis" src="./icons/gauntlet round.png" alt="Card image cap">
+      </figure>
+      </a>  
+  </div>
+  <div class="col-7 col-sm-3">
+      <a href="#post-credits">
+        <figure>
+          <figcaption class="card-title" >Post Credits</figcaption>
+          <img class="card-img-top" style="border-radius: 100%; max-height: 300px;"  title="Post Credits" src="./icons/post-credit-2.png" alt="Card image cap">
+      </figure>
+      </a>  
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Trailer -->
+    <div id="trailer" class="anchor-point-trailer"></div>
+    <div class="row my-5">
+      <div class="col text-center">
+        <h1>Trailer</h1>
+      </div>
+    </div>
+
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eOrNdBpGMv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+
+    <!-- Characters -->
+    <div id="characters" class="anchor-point-trailer"></div>
+    <div class="row my-5">
+      <div class="col text-center">
+        <h1>Characters</h1>
+      </div>
+    </div>
+
+    <div class="characters-container">      
+        <div class="characters">
+        <figure>
+          <a href="../../characters/heroes/Iron-Man/iron-man-bootstrap.html">
+          <img src="./the-avengers/tony.jpg">
+          <figcaption>Iron Man</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Captain-America/captain-america.html">
+          <img src="./the-avengers/cap-min.jpg">
+          <figcaption>Captain America</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Thor/Thor.html">
+          <img src="./the-avengers/thor.jpg">
+          <figcaption>Thor</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/villains/Loki/Loki.html">
+          <img src="./the-avengers/loki.jpg">
+          <figcaption>Loki</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Hulk/Hulk.html">
+          <img src="./the-avengers/hulk.jpg">
+          <figcaption>Hulk</figcaption></a>
+        </figure>
+        <a href="../../characters/heroes/Black-Widow/black-widow.html">
+          <img src="./the-avengers/nat.jpg">
+          <figcaption>Black Widow</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Hawkeye/Hawkeye.html">
+          <img src="./the-avengers/clint-min.png">
+          <figcaption>Hawkeye</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Nick-Fury/Nick-Fury.html">
+          <img src="./the-avengers/fury-min.jpg">
+          <figcaption>Nick Fury</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Agent-Coulson/Agent-Coulson.html">
+          <img src="./the-avengers/coulson-min.jpg">
+          <figcaption>Agent Coulson</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Maria-Hill/Maria-Hill.html">
+          <img src="./the-avengers/hill.png">
+          <figcaption>Maria Hill</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Pepper-Potts/Pepper-Potts.html">
+          <img src="./the-avengers/pepper.jpg">
+          <figcaption>Pepper Potts</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Selvig/Selvig.html">
+          <img src="./the-avengers/selvig.jpg">
+          <figcaption>Dr. Erik Selvig</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/JARVIS/JARVIS.html">
+          <img src="./the-avengers/jarvis.png">
+          <figcaption>J.A.R.V.I.S.</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Stan-Lee/Stan-Lee.html">
+          <img src="./the-avengers/stan.png">
+          <figcaption>Stan the Man</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/villains/Chitauri/Chitauri.html">
+          <img src="./the-avengers/chitauri-min.png">
+          <figcaption>Chitauri</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/villains/The-Other/The-Other.html">
+          <img src="./the-avengers/other.png">
+          <figcaption>The Other</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/villains/Thanos/Thanos.html">
+          <img src="./the-avengers/thanos.jpg">
+          <figcaption>Thanos</figcaption></a>
+        </figure>
+      </div>
+    </div>
+
+      <!-- synopsis -->
+      <div id="synopsis" class="anchor-point-trailer"></div>
+      <div class="row my-5">
+        <div class="col text-center">
+          <h1>Synopsis</h1>
+        </div>
+      </div>
+
+      <div class="card synopsis">
+          <div class="card-body text-center">
+            <div class="row">
+            <div class="col col-md py-3 my-auto">
+              <img src="./the-avengers/1-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">After being exiled from the Nine Realms following his actions in Asgard, Loki wanders the periphery of outer space before coming into contact with The Other, the servant of a mysterious warlord. The Other makes a deal with Loki: in exchange for recovering the Tesseract, a powerful energy source being studied by S.H.I.E.L.D. on Earth, his master promises to give Loki command over the Chitauri, a warmongering race of cyborgs, so he may conquer humanity. Seeing this as a chance for greatness, Loki accepts. On Earth, Nick Fury and Maria Hill are called to the Joint Dark Energy Mission Facility in the Mojave Desert where the Tesseract is being researched by Erik Selvig. The Tesseract has recently begun emitting strange quantities of energy on its own accord, prompting the facility to be evacuated.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/2-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Before any necessary precautions can be made, the Tesseract activates, opening a portal from which Loki appears. Announcing his intention to conquer Earth, Loki steals the Tesseract and uses the Scepter, given to him by the Other, to enslave the minds of Selvig, Clint Barton and several S.H.I.E.L.D. agents, aiding him in his getaway. Despite the efforts of Fury and Hill to stop him, Loki escapes. In response to the attack, Fury reactivates the Avengers Initiative.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/3-min.png">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Despite orders from the World Security Council to proceed with Phase 2, Fury sends Natasha Romanoff to locate Bruce Banner, who has been living in Kolkata, India as a doctor, and Phil Coulson to recruit Tony Stark; both of them are recruited to help locate the Tesseract. Fury himself meets with Steve Rogers, informing him of Loki's theft of the Tesseract, requesting his help in recovering it and subduing the invader. All three men accept the offer, though Rogers is reluctant to do anything involving the Tesseract after his experiences with it in World War II. Banner is also hesitant to assist, fearing that his alter-ego, Hulk, may cause mayhem.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/4-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">The group gathers on the Helicarrier, where Banner starts tracking the gamma radiation emitted by the Tesseract, while S.H.I.E.L.D tries to find Loki. In the meantime, Loki uses the scepter to communicate with The Other, who warns him that if he fails, the consequences will be unspeakable. Shortly after cutting off contact, Loki is discovered in Stuttgart, Germany, and attacks a man named Heinrich Schafer before he terrorizes a crowd of people attending a gala, providing a distraction so that the brainwashed Barton may retrieve Iridium to stabilize the Tesseract. Romanoff and Rogers arrive to apprehend Loki, with Rogers and Loki engaging in an even fight until the timely intervention of Stark, forcing Loki to surrender. After capturing him, they board a Quinjet and start their return trip to the Helicarrier, when a lightning storm suddenly forms, and out of nowhere, Thor appears, having been transported to Earth by Odin.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/5-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Thor takes Loki from the group's custody and carries him to a nearby forest. Thor attempts to persuade Loki into abandoning his campaign and returning to Asgard, but Loki, blinded by his jealousy of Thor and contempt towards Odin, refuses. Stark flies in and attacks Thor, engaging him in a battle that levels part of the forest. Before any further damage can be done, Rogers intervenes and attempts to get Thor to stand down; Thor responds by lunging at Rogers with Mjølnir, only for the captain's shield to absorb the blow. Thor finally agrees to work with the humans and joins them in returning Loki to the Helicarrier.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/6-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">On the Helicarrier, Loki is imprisoned inside a cage designed to hold Banner as the Hulk, and Fury attempts to interrogate him regarding the Tesseract's location, but Loki remains silent. Thor reveals Loki's plan to the Avengers: with the Tesseract, Loki hopes to open a portal that will allow the Chitauri access to Earth, thus beginning an alien invasion. While Stark and Banner work on locating the Tesseract, Stark is intrigued by Banner's level of control over the Hulk and shocks him to see how he would react. Rogers is clearly annoyed by Stark's erratic behavior and disrespect towards authority and tries to get him to follow orders more carefully, instigating a rivalry between the two. Amidst their arguments, they begin to question S.H.I.E.L.D.'s intentions, deducing that Fury was hiding something regarding their plans with the Tesseract. Stark reveals that he had begun hacking the agency's mainframe to unlock their secrets, while Rogers leaves to investigate the restricted areas of the Helicarrier for himself. Both Stark and Rogers' investigations stumble upon "Phase 2", which they realize is, in fact, a program using the Tesseract to make weapons.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/7-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">The Avengers confront Fury with their discoveries, to which he reveals that S.H.I.E.L.D. began using the Tesseract to manufacture weapons in response to the incident with the Destroyer in New Mexico the previous year, which revealed to humanity the existence of powerful and potentially hostile alien life. A massive argument ensues, during which Barton, accompanied by various soldiers also working for Loki, attack the Helicarrier, crippling one of its engines. The resulting explosion destroys the lab that the group is in, causing Romanoff and Banner fall into the boiler area, where they are trapped by wreckage. Despite Romanoff's attempts at calming him down, the injured Banner transforms into the Hulk and chases Romanoff throughout the Helicarrier. Thor comes to her rescue and brawls with Banner, only to be outclassed in strength. A S.H.I.E.L.D. jet attempts to lure Banner away from Thor, only for Banner to leap at the jet and tear it apart. The jet explodes, and Banner is sent careening away from the Helicarrier.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/8-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Rogers and Stark try to repair the damaged engine, but their efforts are hindered by Loki's underlings. Romanoff confronts Barton, and after an intense fight, she is able to break Loki's control by delivering a concussive blow to Barton's head. Thor attempts to prevent Loki from escaping but is tricked by an illusion of Loki and trapped in his former prison cell. Coulson attempts to save Thor, but Loki stabs him through the chest with his scepter and then jettisons Thor from the Helicarrier. Thor breaks free from the cell at the last second, landing in a field. Rogers and Stark are eventually able to overcome their aggressors and get the Helicarrier airborne again, but the victory is bittersweet as Loki escapes and Coulson dies from his injury.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/9-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Fury attempts to use Coulson's death to motivate the Avengers into cooperating as a team, but Rogers and Stark get into another argument. Amidst their argument, the two realize that Loki plans to open the portal above Stark Tower, at the center of New York City, in an attempt to satisfy his own ego. Rogers, Romanoff, and Barton take a Quinjet to New York City, following Stark in his suit. Stark arrives first, failing to stop Selvig from using the Tesseract, in conjunction with a device he built, to open the portal.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/10-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Stark confronts Loki, the two engaging in a brief battle of wits, with Stark failing to intimidate Loki with threats regarding the Avengers. Loki unsuccessfully tries to possess Stark, as his Arc Reactor physically blocks the scepter's power, and instead throws him through a window. Fortunately, Stark manages to activate his Mark VII armor, which attaches itself to Stark before he can hit the ground. Stark then attempts to incapacitate Loki, but Selvig's device activates, opening a portal above New York from which the Chitauri fleet emerges, beginning Loki's invasion.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/11-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Rogers, Romanoff, Barton, and Thor soon arrive and assist Stark against the Chitauri. Not expecting such a resistance, the Chitauri are initially overwhelmed, but their sheer numbers soon become an issue. Banner arrives on a motorbike and uses a special technique he mastered to willingly transform into the Hulk, giving the Avengers an edge against the Chitauri. The team fights through hordes of Chitauri, and during the battle, Loki is attacked by Banner and beaten into submission. Romanoff makes her way to Selvig's device, where Selvig, freed of Loki's control, reveals that Loki's scepter can be used to close the portal.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/12-min.png">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Meanwhile, the World Security Council attempts to end the invasion by launching a nuclear missile at Manhattan. Iron Man intercepts the missile and takes it through the portal toward the Chitauri fleet before running out of power and plummeting back to Earth. Banner catches Stark as he falls, while the Chitauri fleet is decimated by the nuclear explosion, effectively disabling the Chitauri forces on Earth. Romanoff then closes the portal, the battle finally won.</p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/13-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">The world changed forever, is taken over by the idea of a superhero team. Avengers become the center of media attention, admired by the public as heroes, but are also met with some concern and fear, with some finding their appearance during the battle to be too coincidental. All joining in Central Park, the Avengers and S.H.I.E.L.D. watch as Thor escorts Loki and the Tesseract to Asgard. Afterward, the Avengers diverge, though Fury notes that at such a time that a new world-threatening menace emerges, the team will reassemble. </p>
+            </div>
+            <div class="col col-md py-3 my-auto">
+            <img src="./the-avengers/14-min.jpg">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+              <p class="card-text text-left" style="line-height: 1.6">Meanwhile, the Other meets with Thanos and informs him of Loki's failure. He shares his concerns over the strength of Earth's heroes, commenting that attempting to challenge them again would be "to court Death" at what Thanos smiled sadistically. Before they had disassembled, the Avengers gathered at an empty Shawarma Palace and eat in silence.</p>            
+          </div>
+                       
+          
+          
+          
+          </div>
+        </div>
+      </div>      
+
+      
+      
+      
+      
+      
+      <!-- Post Credits -->
+      <div id="post-credits" class="anchor-point-trailer"></div>
+      <div class="row my-5">
+        <div class="col text-center">
+          <h1>Post Credits</h1>
+        </div>
+      </div>
+
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Yx2SSzWXG7U?list=PLEf9_K2ry-SvwzcWOX-6ghetpL2UnDzhl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+  <!-- Footer -->
+  <footer class="text-center my-4">&copy; 2019 Alex Washington</footer>
+
+  <!-- Bootstrap's JavaScript Files --> <script type="text/javascript" src="./index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

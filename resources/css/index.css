@@ -1,0 +1,304 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    text-align: center;
+    background-color: #000 !important;
+    font-weight: 800 !important;
+    overflow-x: hidden;
+  }
+
+/* Start of navbar */ 
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(198, 0, 2);
+}
+
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+  width: 100px !important;
+  height: auto !important;
+  border: 2px solid rgba(0,6,12,.5);
+     box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler {
+  border:2px solid rgba(0,6,12,.5);
+  box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+  
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.dropdown-toggle {
+  
+}
+
+.dropdown-menu {
+  max-width: 120px;
+  
+}
+
+.dropdown-item {
+
+}
+
+.active-tab { color: black !important; border-bottom: 1px solid black;} @media (max-width: 991.98px) { .active-tab { border-bottom: none;}} /* End of navbar */
+
+/* Start of Jumbotron */
+
+.jumbotron {
+  position: relative;
+  max-height: 500px;
+  background-color: black !important;
+}
+
+video {
+
+  max-height: 400px;
+  width: 100%;
+  border:2px solid rgba(0,6,12,.5);
+  box-shadow: 0 2px 12px rgba(0,6,12,.5);
+ -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+ -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+ -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.jumbotron-fluid {
+  
+}
+
+.jumbotron p {
+  opacity: 0.4;
+  text-align: center;
+  position: relative;
+  top: 90px;
+  
+}
+
+.banner {
+  width: 100%;
+}
+
+#banner-mobile {
+  display: none;
+}
+
+@media (max-width: 575.98px) { 
+  #banner-mobile {
+    display: block;
+  }
+
+  #banner-web {
+    display: none;
+  }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  #banner-web {
+    margin-top: 6% !important;
+    margin-bottom: -2% !important;
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #banner-web {
+    margin-top: 6% !important;
+    margin-bottom: -2% !important;
+    max-width: 67%;
+  }
+  
+  .quote {
+    margin-bottom: 10% !important;
+    max-width: 70%;
+  }
+  
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  #banner-web {
+    margin-top: 6% !important;
+    margin-bottom: -3% !important;
+    max-width: 80%;
+  }
+  
+  .quote {
+    margin-bottom: 10% !important;
+    max-width: 70%;
+  }
+ }
+
+@media (min-width: 1200px) { 
+  #banner-web {
+    margin-top: 6% !important;
+    margin-bottom: -2% !important;
+    max-width: 67%;
+  }
+  
+  .quote {
+    margin-bottom: 10% !important;
+    max-width: 70%;
+  }
+ }
+
+/* End of Jumbotron */
+
+
+.container {
+  background-color: black !important;
+}
+
+.container h3 {
+  color: rgb(198, 0, 2);
+}
+
+.container p {
+  color: white;
+}
+  .card-group {
+      display: flex;      
+      
+  }
+
+  .card {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2%;
+  }
+
+  .card-img-top {
+    max-width: 250px;
+    height: 165px;
+    margin: 0 auto;
+  }
+
+  a .card-img-top {
+    position: relative;
+    margin: 6% auto 0 auto;
+    display: block;
+  }
+
+  .card-body {
+        
+  }
+
+  .card-title {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 800;
+    color: rgb(198, 0, 2);
+  }
+
+
+  .card-text {
+    color: white;
+       
+  }
+
+  .col-sm-6, .col-md-4 {
+    margin: 0 auto;
+  }
+
+/* unvisited link */
+a:link {
+  color: rgb(198, 0, 2);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(198, 0, 2);
+}
+
+/* mouse over link */
+a:hover {
+  color: black !important;
+}
+
+/* selected link */
+a:active {
+  color: rgb(198, 0, 2);
+}
+
+/* End of top */
+ 
+  a img, img {
+     border: 2px solid rgba(0,6,12,.5);
+     box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+ }
+ 
+ a img:hover {
+  border-color: rgb(237, 29, 36) !important;
+  cursor: pointer;  
+}
+
+.anchor-point {
+  padding-top: 6%;
+  margin-top: -6%;
+}
+
+.trend-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.trend img {
+  max-width: 300px;
+  max-height: 200px;
+  padding: 10px 10px;
+}
+
+footer {
+  color: rgb(198, 0, 2);
+
+}

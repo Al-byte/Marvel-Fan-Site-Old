@@ -1,0 +1,309 @@
+html, body {
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+/* Start of navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(198, 0, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+    width: 100px !important;
+    height: auto !important;
+}
+
+.navbar-toggler {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+    
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+    color: white !important;
+}
+
+.dropdown-toggle {
+
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-item {
+
+}
+
+a:hover {color: black !important;} .active-tab { color: black !important; border-bottom: 1px solid black;} @media (max-width: 991.98px) { .active-tab { border-bottom: none;}} /* End of navbar */
+
+/* Start of Jumbotron */ #title {width: 100%; height: auto; margin-top: -2% !important; margin-bottom: -2% !important;}
+
+.jumbotron {
+    background: url(https://drush76.files.wordpress.com/2010/01/002wkfyg.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 400px;
+    background-position-y: 30%;
+    background-color: black;
+     
+}
+
+.jumbotron-fluid {
+
+}
+
+/* End of Jumbotron */
+
+/* Start of containter */
+
+.container {
+    background-color: black;
+    color: rgb(252, 194, 0);
+}
+
+/* End of container */ @media (min-width: 1200px) { #title {margin-top: -13% !important; max-width: 50%;} #banner { margin-top: -13% !important;} h6 {margin-top: -25px !important; } .card-group {margin-top: -150px !important; margin-bottom: -150px !important;}}   @media (max-width: 425px) { #title { margin-top: -30% !important;} #banner { margin-top: -90px !important;} h6 {margin-top: -25px !important;} h1 { font-size: 60px;} .card-group {margin-top: -47% !important; margin-bottom: -47% !important;}} @media (min-width: 768px) and (max-width: 991.98px) { #title { margin-top: -140px !important;} #banner { margin-top: -140px !important;} h6 {margin-top: -25px !important;} .card-group {margin-top: -150px !important; margin-bottom: -150px !important;}} @media (max-width: 515.98px) { #title { margin-top: -140px !important;} #banner { margin-top: -140px !important;} h6 {margin-top: -25px !important;} h1 { font-size: 60px;}} @media (min-width: 425.02px) and (max-width: 767.98px) { #banner { margin-top: 70px !important;} h6 { margin-top: -25px !important;} h1 {font-size: 60px;}} @media (min-width: 992px) and (max-width: 1199.98px) { #title {margin-top: -60px !important;}} @media (min-width: 1200px) { #title {margin-top: 32px !important;}} 
+
+/* Start of btn */
+
+.btn {
+    color: white !important;
+    background-color: rgb(198, 0, 2);
+    font-weight: bold;
+}
+
+/* End of btn */
+
+/* Start of top */
+
+.fixed-bottom {
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(198, 0, 2);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(198, 0, 2);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(198, 0, 2);
+  }
+
+/* End of top */
+
+/* Start of web page anchor-point */
+
+.anchor-point {
+    display:block;
+    padding-top: 4%;
+    margin-top: -4%;
+  }
+  
+  /* End of web page anchor-point */
+  
+  /* Start of web page anchor-point-trailer */
+  
+  .anchor-point-trailer {
+    display: block;
+    padding-top: 3.5%;
+    margin-top: -3.5%;
+  }
+  
+  /* End of web page anchor-point-trailer */
+
+/*Start of row */
+
+.row {
+    
+}
+
+/* End of row */
+
+/* Start of col */
+
+.col {
+
+}
+
+/* End of col */
+
+/* Start of card */
+
+.card {
+
+}
+
+/* End of card */
+
+/* Start of card-img-top */
+
+.card-img-top {
+    border: none;
+    box-shadow: none;
+}
+
+/* End of card-img-top */
+
+/* Start of card-body */
+
+.card-body {
+
+}
+
+.card img {
+    margin: 0 auto;
+}
+
+/* End of card-body */
+
+/* Start of card-text */
+
+.card-text {
+    line-height: 3;
+    padding: 2% 5%;
+}
+
+/* End of card-text */
+
+/* Start of img*/
+
+img {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+/* End of img */
+
+/* Start of web page iframe */
+
+
+
+/* Start of embed-responsive-item */
+
+iframe {
+    max-width: ;
+}
+
+/* End of embed-responsive-item */
+
+/* End of web page iframe */
+
+/* Start of carousel */
+
+.carousel-bg {
+    background-image: url('https://wallpaperaccess.com/full/7046.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item img {
+    max-width: 250px;
+    max-height: 260px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    background-color: black !important;
+    max-width: 250px;
+    color: rgb(252, 194, 0);
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.carousel-control-prev {
+    z-index: 0;
+}
+
+.carousel-control-prev-icon {
+    
+}
+
+.carousel-control-next {
+    z-index: 0;
+}
+
+.carousel-control-next-icon {
+    
+}
+
+
+
+/* End of carousel */
+
+/* Start of synposis */
+
+.card {
+    margin: 0 7.5%;
+}
+
+.card img {
+    max-width: 400px;
+    height: auto;
+    flex-shrink: 1;
+}
+
+p {
+    font-weight: 500;
+}
+/* End of synposis */
+
+/* Start of post-credits */
+
+#post-credits {
+    margin: 0 auto;
+}
+/* End of post-credits */

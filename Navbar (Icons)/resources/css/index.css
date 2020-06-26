@@ -1,0 +1,227 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;: "Lato", sans-serif;
+  background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  body { 
+  font-size: 13px;    
+  }
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://i.pinimg.com/originals/b6/26/c4/b626c4ec731961aa0b6a0841015d6aa0.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('https://cdn.vox-cdn.com/thumbor/b6r2ki-Pdj_cwze3OybGRbtVQ70=/0x0:2400x1228/1200x675/filters:focal(1060x42:1444x426)/cdn.vox-cdn.com/uploads/chorus_image/image/59516921/avengers_thanos_concept.0.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    margin-bottom: -10px;
+  }  
+}  
+
+.nav { 
+  height: auto;
+  color: white;
+  background-color: rgb(198, 0, 2);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: table;
+  margin: 0 auto;    
+}
+
+@media screen and (max-width: 500px) {
+.nav { 
+  height: auto;
+  color: white;
+  background-color: rgb(198, 0, 2);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: table;
+  margin: 0 auto;    
+}
+}  
+
+.nav a {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  float: right;
+  padding: 0 auto;
+}
+
+.nav a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.nav img {
+  border: none;
+  width: 100px;
+  height: 100%;
+}
+
+#logo {
+  float: left;
+  position: relative;
+  display: table;
+}
+
+.nav-container {
+  display: inline-flex;
+  float: right;
+}
+
+.dropdown {
+  background-color: white; 
+}
+
+.dropdown-toggle {
+  background-color: rgb(237, 29, 36) !important;
+}
+
+.dropdown-item {
+  background-color: rgb(237, 29, 36) !important;
+}
+
+.nav-pills {
+  background-color: rgb(198, 0, 2);
+}
+
+.dropdown-menu {
+  background-color: rgb(198, 0, 2);
+}
+
+.nav-item {
+  background-color: rgb(237, 29, 36) !important;
+}
+
+@media screen and (max-width: 500px) {
+  .dropdown-item {
+    font-size: 13px;
+  }
+}
+
+.card-group {
+    display: flex;      
+}
+
+.card {
+  display: flex;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+.card-img-top {
+  width: 250px;
+  height: 165px;
+  margin: 0 auto;
+}
+
+a .card-img-top {
+  position: relative;
+  margin: 10px auto 0 auto;
+  display: block;
+}
+
+.card-body {
+  
+}
+
+.card-title {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .card-title {
+    margin-top: -15px;
+  }
+}
+
+.card-text {
+  
+}
+
+@media screen and (max-width: 500px) {
+  .card-text {
+    text-align: center; 
+  }
+}  
+.grid-container {
+  border-top: 5px solid seashell; 
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 100px;  
+}
+
+.grid a {
+    color: white;
+}
+
+.grid a:hover, img:hover {
+    color: rgb(198, 0, 2);
+    border-color: rgb(198, 0, 2);  
+}
+
+.label {
+    display: flex;
+    margin: 30px;
+}
+
+.label img {
+  width: 200px;
+  height: auto;
+  justify-content: center;
+  margin: 10px auto;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+.label img {
+  width: 180px;
+  height: auto;
+  justify-content: center;
+  margin: 10px auto;
+  border: none;
+  }
+}  
+
+img {
+  width: 150px;
+  height: 100px;
+  display: inline-flex;
+  border: 10px double seashell;
+}
+
+@media screen and (max-width: 500px) {
+img {
+  width: 210px;
+  height: 140px;
+}
+}
+
+figcaption {
+  text-align: center;
+}
+

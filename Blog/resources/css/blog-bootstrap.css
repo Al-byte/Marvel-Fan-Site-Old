@@ -1,0 +1,282 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    background-color: black;
+    font-size: 100%;
+    overflow-x: hidden;
+    font-weight: 800;
+  }
+    
+
+/* Start of navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(198, 0, 2);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+  width: 143px !important;
+  height: auto !important;
+  
+}
+
+.navbar-toggler {
+  border:2px solid rgba(0,6,12,.5);
+  box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+  
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+  
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.dropdown-toggle {
+  
+}
+
+.dropdown-menu {
+  max-width: 120px;
+  
+}
+
+.dropdown-item {
+
+}
+
+.active {
+  cursor: pointer;
+}
+
+.active-tab { color: black !important; border-bottom: 1px solid black;} @media (max-width: 991.98px) { .active-tab { border-bottom: none;}} /* End of navbar */
+
+/* Start of Jumbotron */
+
+.jumbotron {
+  background: url('https://nerdist.com/wp-content/uploads/2019/09/spiderman-farfromhome-jjonahjameson-1200x676.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  min-height: 400px;
+  background-color: black;
+  
+
+  
+}
+
+.jumbotron-fluid {
+
+}
+
+.jumbotron p {
+  opacity: 0.7;
+  text-align: center;
+  position: relative;
+  top: 90px;
+  
+
+}
+
+/* End of Jumbotron */
+
+.blurb {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.container {
+  background-color: black !important;
+}
+
+h3 {
+  min-width: 270px;
+}
+
+.container h3 {
+  color: rgb(198, 0, 2);
+}
+
+.container p {
+  color: white;
+}
+
+.responive-img {
+  min-width: 270px;
+  margin: 0 auto;
+}
+
+  .card-group {
+      display: flex;      
+  }
+
+  .card {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+  }
+
+
+  .card-img-top {
+    width: 250px;
+    height: 165px;
+    margin: 0 auto;
+  }
+
+  a .card-img-top {
+    position: relative;
+    margin: 10px auto 0 auto;
+    display: block;
+  }
+
+  .card-body {
+    
+  }
+
+  .card-title {
+    margin-top: 10%;
+    margin-bottom: 3%; 
+    text-align: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-top-width: 50%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+
+  .card-text {
+    text-align: center;
+    color: black !important;
+    padding-top: 5%;
+    font-size: 0.9rem;
+  }
+
+
+img {
+    max-width: 70%;
+    height: auto;
+    display: inline-flex;
+    border:2px solid rgba(0,6,12,.5);
+     box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);    
+}
+
+.number-heading {
+  color: rgb(252, 194, 0);
+}
+
+
+
+figcaption {
+    text-align: left;
+    font-size: 70%;
+    padding-left: 16%;
+}
+
+.summary {
+  line-height: 230%;
+  text-align: left;
+  font-weight: 550;
+}
+
+footer {
+  color: rgb(198, 0, 2);
+
+}
+
+.anchor-point {
+  padding-top: 6%;
+  margin-top: -6%;
+}
+
+.col {
+  background-color: white;
+}
+
+.row {
+  background-color: white;
+}
+
+.row p {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.character {
+  min-width: 100px;
+}
+
+@media (max-width: 405px) { 
+  #ghost {
+    margin-top: 18%;
+  } 
+ }
+
+ a:hover {
+  color: black !important;
+}
+
+@media (max-width: 374.98px) { 
+  figcaption {
+    margin-left: -32px;
+  } 
+ }
+
+@media (min-width: 375px) and (max-width: 433.98px) { 
+  figcaption {
+    margin-left: -20px;
+  } 
+ }
+
+ @media (min-width: 434px) and (max-width: 467px) { 
+  figcaption {
+    margin-left: -5px;
+  } 
+ }

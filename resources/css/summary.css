@@ -1,0 +1,40 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+
+.phase-text {
+    justify-content: center;
+}
+
+.poster-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster img {
+    width: 200px;
+    height: 300px;
+    padding: 10px 10px;
+}
+
+.phase-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.phase img {
+    width: 400px;
+    height: 300px;
+    padding: 10px 10px;
+}

@@ -1,0 +1,363 @@
+html, body {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;  
+    overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-weight: 800 !important;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+    margin: 0 auto;
+    top: 15px;
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+      float: none;
+      display: block;
+      top: 0px;
+      padding-bottom: 4px;
+      margin: 0 auto;
+      right: 15px;
+    }
+  }
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+    height: 250px;
+    border-bottom: 1px solid seashell;
+    float: none;
+    position: relative;
+    
+        
+  }
+
+  .navbar-2 {
+      float: right;
+  }
+  
+.header {
+    
+    border-bottom: 1px solid seashell;
+}
+
+
+  .header .movie-title {
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    top: 10px;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+@media screen and (max-width: 500px) {
+     
+    .header .movie-title {
+      float: none;
+      display: flex;
+      height: auto;
+      width: 70%;
+      padding-top: 0px;
+    }
+  }
+
+
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    right: 40%;
+    top: 40px;
+
+  }
+
+  
+
+
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+    color: rgb(198, 0, 2);
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: rgb(198, 0, 2);
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+     
+    .navbar a, .navbar-2 {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      right: 15px;
+      font-size: 17px;
+      top: 10px;
+    }
+  }
+
+  #myBtn {
+    display: hidden; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    opacity: 0.2;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+.trailer-container {
+    height: 400px;
+    background-color: black;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: relative;
+    top: 0px;
+    background-image: url('https://firebreathingdimetrodon.files.wordpress.com/2017/12/ironman01.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (max-width: 500px) {
+     
+    .trailer-container {
+      float: none;
+      display: block;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+iframe {
+    
+    height: 250px;
+    border-style: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+     
+    iframe {
+      float: none;
+      display: block;
+            
+    }
+  }
+
+
+.trailer-container iframe {
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   height: 300px;
+   padding-top: 10px; 
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+     
+    .trailer-container iframe {
+      display: block;
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+      height: auto;
+      padding-top: 50px;
+      height: 200px;
+
+    }
+  }
+
+h1 {
+    text-align: center;
+    margin: 0 auto;  
+}
+
+.characters-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    padding-bottom: 10px; 
+    background-image: url('https://wallpaperaccess.com/full/7046.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.characters {
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    display: inline-flex;
+}
+
+.characters img {
+    height: 250px;
+    width: 200px;
+    margin: -10px;
+    padding: 2px;
+    border:2px solid grey;
+    box-shadow: 10px 10px 5px grey;
+    -moz-box-shadow: 10px 10px 5px grey;
+    -webkit-box-shadow: 10px 10px 5px grey;
+    -khtml-box-shadow: 10px 10px 5px grey;
+}
+
+.characters img:hover {
+    -moz-transform: translate(-2px, -2px);
+    -ms-transform: translate(-2px, -2px);
+    -o-transform: translate(-2px, -2px);
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+    cursor: pointer;
+}
+
+figcaption {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+figcaption:hover {
+    cursor: pointer;
+}
+
+.plot-container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.plot {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+    padding: 10px 10px;
+    border-bottom: 1px solid seashell;    
+}
+
+.plot p {
+    text-align: left;
+    position: relative;
+    font-size: 16px;
+    line-height: 3;
+    padding: 0px 90px;
+    font-weight: 800;
+}
+
+.plot img {
+    height: 200px;
+    width: 300px;
+}
+
+.shrapnel img, .yinsen img, .mk3 img, .obadiah img, .ambush img, .iron-man img {
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    padding-right: 90px;
+}
+
+.ten-rings img, .mk1 img, .afghanistan img, .pepper img, .fight img {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    padding-left: 90px;
+}
+
+.post-credits-container {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://mypostercollection.com/wp-content/uploads/2018/08/Iron-Man-Poster-2008-MyPosterCollection.com-17.jpg');
+    background-repeat: repeat;
+    top: 0px;
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+     
+    .post-credits-container {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position-x: center;
+       
+    }
+  }
+
+.post-credits-scene {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    top: 25%;
+}
+
+@media screen and (max-width: 500px) {
+     
+    .post-credits-scene {
+      float: none;
+      display: block;
+    }
+  }
+
+.post-credits-container h1 {
+    position: relative;
+    top: 30px;
+}
+
+.heading-logo {
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+     
+    .heading-logo {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      
+    }
+  }

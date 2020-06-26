@@ -1,0 +1,50 @@
+html {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/12/11/56/universe-2742113_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.trend-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.trend img {
+  width: 300px;
+  height: 200px;
+  padding: 10px 10px;
+}
+
+/* underline */
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

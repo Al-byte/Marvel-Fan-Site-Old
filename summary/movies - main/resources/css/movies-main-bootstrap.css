@@ -1,0 +1,446 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;: "Lato", sans-serif;
+    background-color: black;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+/* Start of navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgb(198, 0, 2);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+ 
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+  width: 100px !important;
+  height: auto !important;
+}
+
+.navbar-toggler {
+  border:2px solid rgba(0,6,12,.5);
+  box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+  
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.dropdown-toggle {
+  
+}
+
+.dropdown-menu {
+  max-width: 120px;
+  
+}
+
+.dropdown-item {
+
+}
+
+.active {
+  cursor: pointer;
+}
+
+.active-tab { color: black !important; border-bottom: 1px solid black;} @media (max-width: 991.98px) { .active-tab { border-bottom: none;}} /* End of navbar */
+
+/* Start of Jumbotron */
+
+.jumbotron {
+  background: url(''); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  min-height: 400px;
+  background-color: black;
+  background-position-y: 20%;
+}
+
+.jumbotron-fluid {
+
+}
+
+.jumbotron p {
+  opacity: 0.4;
+  text-align: center;
+  position: relative;
+  top: 90px;
+  
+}
+ 
+#banner {
+  max-width: 100%;
+  max-height: 470px;
+  height: auto;
+  border:none;
+  box-shadow: none;
+ -moz-box-shadow: none;
+ -webkit-box-shadow: none;
+ -khtml-box-shadow: none;
+ }
+
+ #banner-mobile {
+   width: 100%;
+   border:none;
+  box-shadow: none;
+ -moz-box-shadow: none;
+ -webkit-box-shadow: none;
+ -khtml-box-shadow: none;
+ }
+
+ #banner:hover, #banner-mobile {
+   cursor: auto;
+   border-color: black;
+ }
+
+/* End of Jumbotron */
+
+@font-face {
+  font-family: 'marvel';
+  src: url('../../../../Fonts/Marvel.ttf');
+  font-style: normal;
+  font-weight: 100;
+}
+
+h1 {
+  font-family: marvel;
+  color: rgb(224, 242, 243);
+  text-align: center;
+  background-color: rgb(198, 0, 2);
+  color: white;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+h4 {
+  font-family: marvel;
+  color: rgb(224, 242, 243);
+  text-align: center;
+  background-color: rgb(198, 0, 2);
+  color: white;
+}
+
+.container h5 {
+  color: rgb(198, 0, 2);
+  font-size: 150%;
+}
+
+
+  .card {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2%;
+    width: 100%;
+    background-color: black;
+  }
+
+  .card-img-top {
+    max-width: 250px;
+    height: 165px;
+    margin: 0 auto;
+  }
+
+  a .card-img-top {
+    position: relative;
+    margin: 6% auto 0 auto;
+    display: block;
+  }
+
+  .card-body {
+        
+  }
+
+  .card-title {
+    text-align: center;
+    margin: 2% auto 0 auto;
+    display: inline-block;
+  }
+
+
+  .card-text {
+    color: rgb(198, 0, 2);
+  }
+
+ /* Start of top */
+
+.fixed-bottom {
+  margin-right: 3%;
+  margin-bottom: 2%;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(198, 0, 2);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(198, 0, 2);
+}
+
+/* mouse over link */
+a:hover {
+  color: black !important;
+}
+
+
+/* selected link */
+a:active {
+  color: rgb(198, 0, 2);
+}
+
+/* End of top */
+ 
+  img {
+     border:2px solid rgba(0,6,12,.5);
+     box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+ }
+ 
+  .grid-container {
+    border-top: 5px solid seashell; 
+  }
+
+  .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0 20%;  
+  }
+
+  .grid a {
+      color: white;
+  }
+
+  .grid a:hover {
+      color: rgb(198, 0, 2);
+      border: 5px solid rgb(198, 0, 2);  
+      cursor: pointer;
+  }
+
+  .label {
+      display: flex;
+      margin: 30px;
+  }
+
+  .label img {
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    margin: 10px auto;
+    border: none;
+  }
+
+figcaption {
+    text-align: center;
+    font-weight: 550;
+    margin-top: 2%;
+    color: rgb(198, 0, 2);
+    font-size: 100%;
+    margin-top: 12px;
+}
+
+.phase-text {
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  background-color: black;
+  color: gold;
+  text-align: center;
+  margin-top: 8.5%;
+  margin-bottom: 3%;
+  padding-bottom: 1%;
+}
+
+.poster-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.poster img {
+  max-width: 200px;
+  max-height: 300px;
+  margin: 1% 1%;
+  box-shadow: 0 2px 12px white;
+ -moz-box-shadow: 0 2px 12px white;
+ -webkit-box-shadow: 0 2px 12px white;
+ -khtml-box-shadow: 0 2px 12px white;
+}
+
+.phase-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.phase img {
+  width: 400px;
+  height: 300px;
+  padding: 10px 10px;
+}
+
+.anchor-point {
+  padding-top: 2%;
+  margin-top: -2%;
+}
+
+footer {
+  color: rgb(198, 0, 2);
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 575.98px) { 
+  .web {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+    position: relative;
+    top: 80px;
+  }
+
+  #banner {
+      position: relative;
+      top: 150% !important;
+      margin-top: 75px;
+  }
+  
+  .quote {
+    font-size: 120% !important;
+    margin-bottom: -5%;
+    max-width: 80%;
+    margin-top: 7%;
+    position: relative;
+    top: 80px;
+  }
+
+  .helper-menu {
+    margin-top: 7%;
+    position: relative;
+    top: 80px;
+    margin-bottom: 35%;
+  }
+
+  .anchor-point {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  #banner {
+    position: relative;
+    top: 150% !important;
+    margin-top: 75px;
+    margin-bottom: 5%;
+}
+
+.quote {
+  position: relative;
+  top: 20%;
+  margin-bottom: 15%;
+}
+
+   h5 {
+     font-size: 100%;
+   }
+
+   .anchor-point {
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+ }
+
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  #banner {
+    max-width: 100%;
+    max-height: 283px;
+    margin: 6% auto 3% auto !important;
+    height: auto;
+   }
+
+   .anchor-point {
+    padding-top: 55px;
+    margin-top: -55px;
+  }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  #banner {
+    max-width: 100%;
+    max-height: 283px;
+    margin: 6% auto 5% auto !important;
+    height: auto;
+   }
+
+   .quote {
+     max-width: 50%;
+   }
+ }
+
+@media (min-width: 1200px) { 
+  #banner {
+    max-width: 100%;
+    max-height: 383px;
+    margin: 5% auto 2% auto !important;
+    height: auto;
+   }
+
+   .quote {
+     max-width: 60%;
+   }
+ }

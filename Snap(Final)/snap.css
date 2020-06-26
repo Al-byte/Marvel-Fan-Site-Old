@@ -1,0 +1,265 @@
+html, body {
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-weight: 800;
+}
+
+/* Start of navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(198, 0, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  }
+  
+  .navbar-expand-lg {
+  
+  }
+  
+  .navbar-light {
+  
+  }
+  
+  .bg-light {
+  
+  }
+  
+  .navbar-brand img {
+    width: 100px !important;
+    height: auto !important;
+    border: 2px solid rgba(0,6,12,.5);
+       box-shadow: 0 2px 12px rgba(0,6,12,.5);
+      -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+      -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+      -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+  }
+  
+  .navbar-toggler {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    position: fixed;
+    right: 16px;
+    width: 58px;
+    top: 16px;
+  }
+  
+  .navbar-toggler-icon {
+    
+  }
+  
+  .navbar-nav {
+  
+  }
+  
+  .ml-auto {
+  
+  }
+  
+  .nav-item {
+  
+  }
+  
+  .dropdown {
+  
+  }
+  
+  .nav-link { color: white !important; font-weight: 800;}
+  
+  
+  .nav-link:hover {
+    color: #000 !important;
+  }
+  
+  .dropdown-toggle {
+    
+  }
+  
+  .dropdown-menu {
+    max-width: 120px;
+    
+  }
+  
+  .dropdown-item {
+  
+  }
+  
+  .active-tab { color: black !important; border-bottom: 1px solid black;} @media (max-width: 991.98px) { .active-tab { border-bottom: none;}} /* End of navbar */
+  
+#banner {
+    width: 100%;
+}
+
+
+input {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 5%;
+    text-align: center;
+}   
+
+.col {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+#snap {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#button {
+    margin-bottom: 30px;
+}
+
+.card {
+    color: black;
+    max-width: 70%;
+    height: 5%;
+    padding-top: -10%;
+}
+
+.gender {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+#male, #female {
+    margin: 0 4%;
+}
+
+button {
+    background-color: rgb(198, 0, 2);
+    border: rgb(240, 19, 30);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    width: 80px;
+    height: auto;
+    font-weight: 800;
+    margin: 0 auto;
+    font-size: 100%;
+}
+
+.col-3 {
+    margin: 0 auto;
+}
+
+#die {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    max-width: 70%;
+}
+
+#live {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+@media (min-width: 327px) and (max-width: 575.98px) { 
+    .reset, #button {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 326.98px) { 
+    .reset, #button {
+        max-width: 55%;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .reset {
+        max-width: 25%;
+    }
+
+    #button {
+        font-size: 150%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .reset {
+        max-width: 30%;
+        font-size: 150%;
+    }    
+
+    #button {
+        font-size: 150%;
+    }
+
+    #live {
+        max-width: 80%;
+    }
+
+    #die {
+        max-width: 60%;
+    }
+
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .reset {
+        font-size: 150%;
+        max-width: 32%;
+    }
+
+    #button {
+        font-size: 150%;
+    }
+
+    #instructions {
+        max-width: 70%;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .reset {
+        font-size: 150%;
+    }
+
+    #button {
+        font-size: 150%;
+    }
+
+    #instructions {
+        max-width: 60%;
+        margin: 0 auto 5% auto;
+    }
+
+
+    #snap {
+        max-width: 60%;
+    }
+
+    #live {
+        max-width: 60%;
+    }
+
+    #die {
+        max-width: 45%;
+    }
+
+ }

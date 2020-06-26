@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS --> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="./resources/css/ant-man.css" type="text/css">
+  <title>Ant-Man</title>
+</head>
+
+<body>
+    <!-- Navbar Component -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="../../index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Marvel_Cinematic_Universe_Logo.png" alt="MCU logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item text-right">
+            <a class="nav-link" href="../../characters/index.html">
+                Bios
+            </a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link active-tab" href="../../summary/movies%20-%20main/movies-main-bootstrap.html">
+                Movies
+            </a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="../../Blog/blog-bootstrap.html">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="../../Quiz%20(Final)/Quiz.html">Quiz <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="../../Snap(Final)/snap.html">Destiny <span class="sr-only">(current)</span></a>
+        </li>
+
+        </ul>
+      </div>
+    </nav>
+
+  <!-- Container -->
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col text-center my-5 py-5">
+        <img id="title" src="./movie-titles/Ant-Man.jpg">
+      </div>
+    </div>
+  <!-- Jumbotron -->
+  <div class="row text-center d-flex justify-content-center">
+    <div class="col col-md-9">
+      <img src="./ant-man/banner.jpg" id="banner" style="min-width: ;">
+    </div>
+  </div>
+    <!-- Quote Section -->
+    <div class="row">
+      <div class="col my-5">
+        <h6 style="font-size: 120%"; class="font-italic font-weight-light text-center">"Second chances don't come around all that often. I suggest you take a really close look at it. This is your chance to earn that look in your daughter's eyes, to become the hero that she already thinks you are."</h6>
+        <p class="font-italic font-weight-bold text-right">-Hank Pym, <span class="font-italic font-weight-normal"> 2015</span></p>
+      </div>
+    </div>
+    <hr>
+
+<!--Helper Menu-->
+<div id="help-nav" class="card-group text-center">
+  <div class="row d-flex justify-content-center py-5 my-5">
+    <div class="col-7 col-sm-3">
+      <a href="#trailer">
+        <figure>
+          <figcaption class="card-title">Trailer</figcaption>
+          <img class="card-img-top" style="border-radius: 100%; max-height: 300px;" src="./icons/trailer.jpg" title="Trailer" alt="Card image cap">          
+      </figure>
+      </a>  
+  </div>
+   <div class="col-7 col-sm-3">
+      <a href="#characters">
+        <figure>
+          <figcaption class="card-title" >Characters</figcaption>
+          <img class="card-img-top" style="border-radius: 100%; max-height: 300px;" title="Characters" src="./icons/ant-man-helmet-png-1.png" alt="Card image cap">
+      </figure>
+      </a>  
+  </div>
+  <div class="col-7 col-sm-3">
+      <a href="#synopsis">
+        <figure>
+          <figcaption class="card-title">Synopsis</figcaption>
+          <img class="card-img-top" style="border-radius: 100%; max-height: 300px;" title="Synopsis" src="./icons/gauntlet round.png" alt="Card image cap">
+      </figure>
+      </a>  
+  </div>
+  <div class="col-7 col-sm-3">
+      <a href="#post-credits">
+        <figure>
+          <figcaption class="card-title" >Post Credits</figcaption>
+          <img class="card-img-top" style="border-radius: 100%; max-height: 300px;"  title="Post Credits" src="./icons/post-credit-2.png" alt="Card image cap">
+      </figure>
+      </a>  
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Trailer -->
+    <div id="trailer" class="anchor-point-trailer"></div>
+    <div class="row my-5">
+      <div class="col text-center">
+        <h1>Trailer</h1>
+      </div>
+    </div>
+
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pWdKf3MneyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+
+    <!-- Characters -->
+    <div id="characters" class="anchor-point-trailer"></div>
+    <div class="row my-5">
+      <div class="col text-center">
+        <h1>Characters</h1>
+      </div>
+    </div>
+
+    <div class="characters-container">      
+        <div class="characters">
+        <figure>
+          <a href="../../characters/heroes/Ant-Man/ant-man.html">
+          <img src="./ant-man/scott-min.jpg">
+          <figcaption>Scott Lang</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Hank-Pym/Hank-Pym.html">
+          <img src="./ant-man/hank.jpg">
+          <figcaption>Dr. Hank Pym</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Wasp/Wasp.html">
+          <img src="./ant-man/hope.jpg">
+          <figcaption>Hope van Dyne</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/villains/Yellowjacket/Yellowjacket.html">
+          <img src="./ant-man/cross.png">
+          <figcaption>Darren Cross</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Falcon/Falcon.html">
+          <img src="./ant-man/sam-min.jpeg">
+          <figcaption>Falcon</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Cassie-Lang/Cassie-Lang.html">
+          <img src="./ant-man/cassie.png">
+          <figcaption>Cassie Lang</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Peggy-Carter/Peggy-Carter.html">
+          <img src="./ant-man/peggy-min.jpg">
+          <figcaption>Peggy Carter</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Howard-Stark/Howard-Stark.html">
+          <img src="./ant-man/howard.png">
+          <figcaption>Howard Stark</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/key-figures/Stan-Lee/Stan-Lee.html">
+          <img src="./ant-man/stan-min.jpg">
+          <figcaption>Bartender</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Captain-America/captain-america.html">
+          <img src="./ant-man/cap.png">
+          <figcaption>Steve Rogers</figcaption></a>
+        </figure>
+        <figure>
+          <a href="../../characters/heroes/Bucky-Barnes/Bucky-Barnes.html">
+          <img src="./ant-man/bucky.jpg">
+          <figcaption>Bucky Barnes</figcaption></a>
+        </figure>
+      </div>
+    </div>
+
+      <!-- synopsis -->
+      <div id="synopsis" class="anchor-point-trailer"></div>
+      <div class="row my-5">
+        <div class="col text-center">
+          <h1>Synopsis</h1>
+        </div>
+      </div>
+
+      <div class="card synopsis">
+        <div class="card-body text-center">
+          <div class="row">
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/1.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">In 1989, Hank Pym resigns from S.H.I.E.L.D. after discovering Howard Stark's attempt to replicate his own shrinking technology, which Pym believes is very dangerous and vows to suppress it.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/2.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">In the present, Pym's estranged daughter, Hope van Dyne, and protege, Darren Cross, have forced him from his own company, Pym Technologies. Furthermore, Pym is more devastated when Cross unravels his own project; an advanced shrinking suit named the Yellowjacket Suit, based on Pym's original technology.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/3.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Meanwhile, Scott Lang has been released from San Quentin State Prison, after serving three years for burglarizing a former employer. He reunites with his former cellmate, Luis, and his two other partners Kurt and Dave, who offer him a position in a burglary; however, Lang exploits his intention about going straight. Furthermore, he learns that his ex-wife has gotten engaged to a police officer, Jim Paxton. His wife also reveals that he cannot see their child anymore if he does not provide child support.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/4-min.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Relentless, and hopeless, Lang inadvertently accepts the burglary job offered by Luis, when he is unable to strike up a job because of his negative criminal records and background. Lang confidentially infiltrates the house where he is supposed to break into, and cracks open a safe, and finds something which he refers to as an "old motorcycle suit". He takes it to his apartment after escaping. He starts toying with it and wears the suit.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/5.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">He takes it to his apartment after escaping. He starts toying with it and wears the suit. Triggering a button, he inadvertently shrinks down to the size of an insect and struggles to return to his original size.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/6.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Terrified by this enigmatically frightening experience, he attempts to return it back to the house where he smuggled it from, only to be discovered by the police, and arrested. Pym, the owner of the house which Lang broke into, poses as a lawyer and smuggles the Ant-Man Suit to Lang's cell to help him break out. Although confused, Lang wears the suit and escapes the prison with the help of a group of ants.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/7-min.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Lang discovers that Pym manipulated him through Luis into stealing the suit as a test, and wants Lang to become the new Ant-Man and steal the Yellowjacket suit from Cross, which Pym considers as extremely dangerous equipment, literally capable of mass destruction. Pym requests Van Dyne to spy on Cross, and she does so, although resenting her father for their strained relationship and not saying anything about her mother and also not letting her stop Cross. Meanwhile, Lang is trained by Van Dyne and Pym to perfectly control and manipulate the Ant-Man suit that additionally supplies superhuman strength, while teaching him to control ants.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/8-min.png">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Pym sends Lang to a very risky mission, where he steals a device from the New Avengers Facility, originally one of Stark Industries warehouses, that eventually leads to a fight between Lang and Falcon. Later, Pym in frustration, tells Hope the truth about the death of her mother, Janet van Dyne; her mother was the counterpart of Pym's Ant-Man superhero identity, the Wasp, who sacrificed herself to prohibit a Soviet nuclear launch missile to be activated; in the process, she disappeared into a subatomic Quantum Realm. He admits that he does not want the same to happen to Hope; then the two reconcile.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/9.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Cross perfects the Yellowjacket suit and invites Pym to the unveiling. While the congregation ceremony of the Yellowjacket suit is taking place, Lang, in the Ant-Man suit, along with his crew and a swarm of ants, infiltrates the building. Planting explosives and sabotaging all the servers, Lang is prepared to steal the Yellowjacket Suit; however, he is captured by Cross who was expecting this. Cross sells both the Ant-Man and Yellowjacket suits to the HYDRA and the Ten Rings. Lang breaks free from his trap, fights the HYDRA agents and chases after the escaped Cross, though Mitchell Carson escapes with Cross's unstable formula amidst the chaos. Then, the planted explosives planted on Cross's unstable Pym Particle formula detonate, imploding the building into the Quantum Realm.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/10-min.png">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Cross dons the Yellowjacket suit. Lang traps Cross in a bug zapper, but before he can sabotage his suit, he is tasered and arrested by Paxton. Cross escapes, and holds Lang's daughter, Cassie, as a hostage, to lure Lang to him. They both fight once again but as a last effort, Lang shrinks to a subatomic size to finally penetrate and sabotage the Yellowjacket suit. They both shrink uncontrollably in the nothingness of the subatomic quantum realm, with Cross imploding due to his suit being damaged by Scott, who smashed through the suits mechanisms and circuits as he turned subatomic. Scott, fighting unconsciousness and after hearing Cassie calling for him, finds the will to escape and puts a disc with enlarging Pym Particle formula inside the suit's regulator and switching it back on, successfully reverting to his original size.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/11.jpg">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">Witnessing the heroism of Lang, Paxton covers up for him and wriggles him out of serving time. Scott remembers nothing of his experience in the Quantum Realm, with Pym believing the human mind might not be able to process it. Seeing that Lang survived the Quantum Realm, Pym wonders if his wife is still alive. Months later, Luis informs Lang that the Avengers are looking to recruit him, by the suggestion of Wilson.</p>
+          </div>
+          <div class="col col-md py-3 my-auto">
+            <img src="./ant-man/12-min.png">
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <p class="card-text text-left" style="line-height: 1.6">After Lang's departure, Pym congregates the upgraded prototype of the Wasp Suit to Hope, offering it to her. To which she replies, "it's about damn time". A year later, in Berlin, Steve Rogers and Wilson have found Bucky Barnes. Unable to contact Tony Stark because of the Sokovia Accords, Wilson states that "he knows a guy".</p>
+          </div>
+        </div>           
+        </div>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      <!-- Post Credits -->
+      <div id="post-credits" class="anchor-point-trailer"></div>
+      <div class="row my-5">
+        <div class="col text-center">
+          <h1>Post Credits</h1>
+        </div>
+      </div>
+
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2CFMxiDrvk4?list=PLEf9_K2ry-SvwzcWOX-6ghetpL2UnDzhl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <br>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VT0x4VczRJA?list=PLEf9_K2ry-SvwzcWOX-6ghetpL2UnDzhl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+  <!-- Footer -->
+  <footer class="text-center my-4">&copy; 2019 Alex Washington</footer>
+
+  <!-- Bootstrap's JavaScript Files --> <script type="text/javascript" src="./index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

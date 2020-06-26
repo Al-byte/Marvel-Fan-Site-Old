@@ -1,0 +1,369 @@
+html, body {
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+}
+
+/* Start of navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(198, 0, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.navbar-expand-lg {
+
+}
+
+.navbar-light {
+
+}
+
+.bg-light {
+
+}
+
+.navbar-brand img {
+    width: 100px !important;
+    height: auto !important;
+}
+
+.navbar-toggler {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.navbar-toggler-icon {
+    
+}
+
+.navbar-nav {
+
+}
+
+.ml-auto {
+
+}
+
+.nav-item {
+
+}
+
+.dropdown {
+
+}
+
+.nav-link { color: white !important; font-weight: 800;}
+
+
+.dropdown-toggle {
+
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-item {
+
+}
+
+a:hover {color: black !important;} .active-tab { color: black !important; border-bottom: 1px solid black;} @media (max-width: 991.98px) { .active-tab { border-bottom: none;}} /* End of navbar */
+@font-face {
+    font-family: 'cap';
+    src: url('../../../../Fonts/Captain\ America\ The\ Winter\ Soldier.ttf');
+    font-style: normal;
+    font-weight: 100;
+  }
+
+h1 {
+    font-family: cap;
+    color: rgb(160, 160, 160);
+    text-align: center;
+    font-size: 60px;
+}
+/* Start of Jumbotron */ #title {width: 100%; height: auto; margin-top: -20% !important; margin-bottom: -13% !important;}
+
+.jumbotron {
+    background: url(); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 400px;
+    background-position-y: 30%;
+    background-color: black;
+     
+}
+
+.jumbotron-fluid {
+
+}
+
+.jumbotron p {
+    opacity: 0.8;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    color: black;
+  }
+
+  #banner {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+/* End of Jumbotron */
+
+/* Start of containter */
+
+.container h6 {
+    background-color: black;
+    color: rgb(198, 0, 2);
+    line-height: 1.5;
+}
+
+.container p {
+    background-color: black;
+    color: white;
+}
+
+/* End of container */ @media (min-width: 1200px) { #title {margin-top: -19% !important; max-width: 50%;} #banner { margin-top: -8% !important;} h6 {margin-top: -25px !important; } .card-group {margin-top: -150px !important; margin-bottom: -150px !important;}}   @media (max-width: 425px) { #title { margin-top: -42% !important;} #banner { margin-top: -35% !important;} h6 {margin-top: -25px !important;} h1 { font-size: 35px;} .card-group {margin-top: -47% !important; margin-bottom: -47% !important;}} 
+
+@media (min-width: 768px) and (max-width: 991.98px) { #title { margin-top: -210px !important;} #banner { margin-top: -150px !important;} h6 {margin-top: -25px !important;} .card-group {margin-top: -150px !important; margin-bottom: -150px !important;}} 
+
+
+@media (min-width: 425.02px) and (max-width: 767.98px) { #title { margin-top: -35% !important;} #banner { margin-top: -25% !important;} h6 {margin-top: -25px !important;} .card-group {margin-top: -150px !important; margin-bottom: -150px !important;}}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { #title {margin-top: -210px !important; max-width: 60%;} #banner { margin-top: -110px !important;} h6 {margin-top: -25px !important;} .card-group {margin-top: -150px !important; margin-bottom: -150px !important;}}
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: rgb(198, 0, 2);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(198, 0, 2);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(198, 0, 2);
+  }
+
+/* End of top */
+
+/* Start of web page anchor-point */
+
+.anchor-point {
+    display: block;
+    padding-top: 4%;
+    margin-top: -4%;
+  }
+  
+  /* End of web page anchor-point */
+  
+  /* Start of web page anchor-point-trailer */
+  
+  .anchor-point-trailer {
+    display: block;
+    padding-top: 3.5%;
+    margin-top: -3.5%;
+  }
+  
+  /* End of web page anchor-point-trailer */
+
+
+/* Start of card */
+
+.card {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* End of card */
+
+/* Start of card-img-top */
+
+.card-img-top {
+    border: none;
+    box-shadow: none;
+    padding-top: 5%;
+}
+
+/* End of card-img-top */
+
+/* Start of card-body */
+
+.card-body {
+
+}
+
+.card img {
+    margin: 0 auto;
+    max-width: 100px;
+    height: auto;
+    flex-shrink: 1;
+
+}
+
+/* End of card-body */
+
+/* Start of card-text */
+
+.card-title { 
+    font-family: cap; 
+    font-size: 65%;
+    color: rgb(160, 160, 160)
+}
+
+.card-text {
+    padding: 2% 1%;
+    color: black;
+}
+
+/* End of card-text */
+
+/* Start of img*/
+
+img {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+/* End of img */
+
+/* Start of web page characters-container */
+
+.characters-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 10px; 
+    background-image: url('https://wallpaperaccess.com/full/7046.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+/* End of web page characters-container */
+
+/* Start of web page characters */
+
+.characters {
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    display: inline-flex;
+    margin: 0 auto;    
+}
+
+/* End of web page characters */
+
+/* Start of web page characters img */
+
+.characters img {
+    height: 250px;
+    width: 200px;
+    margin: 5px;
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+    -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);    
+}
+
+.characters img:hover {
+    -moz-transform: translate(-2px, -2px);
+    -ms-transform: translate(-2px, -2px);
+    -o-transform: translate(-2px, -2px);
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+    cursor: pointer;
+}
+
+/* End of web page characters img */
+
+/* Start of web page figcaption */
+
+figcaption {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
+figcaption:hover {
+    cursor: pointer;
+    color: rgb(198, 0, 2);
+}
+
+/* End of web page figcaption */
+
+
+/* Start of synposis */
+
+
+
+/* End of synposis */
+
+/* Start of post-credits */
+
+#post-credits {
+    margin: 0 auto;
+}
+/* End of post-credits */
+
+.synopsis img {
+    margin: 0 auto;
+    max-width: 60%;
+    min-width: 250px;
+    height: auto;
+    flex-shrink: 1;
+}
+
+.synopsis p {
+    line-height: 3;
+    color: black;
+    background-color: white;
+}
+
+.card-group {
+    margin-top: -5%;
+}
+
+.card-group h5 {
+    background-color: black;
+    color: white;
+}
+
+.card-group p {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    color: rgb(198, 0, 2);
+}
